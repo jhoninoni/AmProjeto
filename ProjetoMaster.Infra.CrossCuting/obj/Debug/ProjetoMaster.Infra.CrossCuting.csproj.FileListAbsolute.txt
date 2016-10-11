@@ -1,0 +1,14 @@
+C:\New folder\Projeto Master\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\bin\Debug\ProjetoMaster.Infra.CrossCuting.dll
+C:\New folder\Projeto Master\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\bin\Debug\ProjetoMaster.Infra.CrossCuting.pdb
+C:\New folder\Projeto Master\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\obj\Debug\ProjetoMaster.Infra.CrossCuting.csprojResolveAssemblyReference.cache
+C:\New folder\Projeto Master\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\obj\Debug\ProjetoMaster.Infra.CrossCuting.dll
+C:\New folder\Projeto Master\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\obj\Debug\ProjetoMaster.Infra.CrossCuting.pdb
+C:\Users\jhoni\Desktop\master\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\bin\Debug\ProjetoMaster.Infra.CrossCuting.dll
+C:\Users\jhoni\Desktop\master\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\bin\Debug\ProjetoMaster.Infra.CrossCuting.pdb
+C:\Users\jhoni\Desktop\master\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\obj\Debug\ProjetoMaster.Infra.CrossCuting.dll
+C:\Users\jhoni\Desktop\master\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\obj\Debug\ProjetoMaster.Infra.CrossCuting.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\bin\Debug\ProjetoMaster.Infra.CrossCuting.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\bin\Debug\ProjetoMaster.Infra.CrossCuting.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\obj\Debug\ProjetoMaster.Infra.CrossCuting.csprojResolveAssemblyReference.cache
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\obj\Debug\ProjetoMaster.Infra.CrossCuting.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\obj\Debug\ProjetoMaster.Infra.CrossCuting.pdb
