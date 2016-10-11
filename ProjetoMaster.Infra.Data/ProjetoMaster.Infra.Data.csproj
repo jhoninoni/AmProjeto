@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C82BA2AE-DBE0-431F-B637-68FAACCF2E6C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjetoMaster.Infra.Data</RootNamespace>
+    <AssemblyName>ProjetoMaster.Infra.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contexto\ContextDb.cs" />
+    <Compile Include="EntityConfig\AlunoConfiguration.cs" />
+    <Compile Include="EntityConfig\AtividadeConfiguration.cs" />
+    <Compile Include="EntityConfig\BairroConfiguration.cs" />
+    <Compile Include="EntityConfig\CidadeConfiguration.cs" />
+    <Compile Include="EntityConfig\DadosPulseiraConfiguration.cs" />
+    <Compile Include="EntityConfig\EnderecoConfiguration.cs" />
+    <Compile Include="EntityConfig\EstadoConfiguration.cs" />
+    <Compile Include="EntityConfig\FuncionarioConfiguration.cs" />
+    <Compile Include="EntityConfig\MedicamentoConfiguration.cs" />
+    <Compile Include="EntityConfig\PessoaConfiguration.cs" />
+    <Compile Include="EntityConfig\ReponsavelConfiguration.cs" />
+    <Compile Include="EntityConfig\SensorConfiguration.cs" />
+    <Compile Include="EntityConfig\UsuarioConfiguration.cs" />
+    <Compile Include="MassaDados\AlimentacaoDados.cs" />
+    <Compile Include="MassaDados\AlunoDados.cs" />
+    <Compile Include="MassaDados\AtividadeDados.cs" />
+    <Compile Include="MassaDados\BairroDados.cs" />
+    <Compile Include="MassaDados\BanhoDados.cs" />
+    <Compile Include="MassaDados\CargoDados.cs" />
+    <Compile Include="MassaDados\CidadeDados.cs" />
+    <Compile Include="MassaDados\DadosSensorDados.cs" />
+    <Compile Include="MassaDados\EnderecoDados.cs" />
+    <Compile Include="MassaDados\EstadoDados.cs" />
+    <Compile Include="MassaDados\EvacuacaoDados.cs" />
+    <Compile Include="MassaDados\FuncionarioDados.cs" />
+    <Compile Include="MassaDados\MedicamentoDados.cs" />
+    <Compile Include="MassaDados\PessoaDados.cs" />
+    <Compile Include="MassaDados\ResponsavelDados.cs" />
+    <Compile Include="MassaDados\SensorDados.cs" />
+    <Compile Include="MassaDados\SerieDados.cs" />
+    <Compile Include="MassaDados\SonoDados.cs" />
+    <Compile Include="MassaDados\UsuarioDados.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AlimentacaoRepository.cs" />
+    <Compile Include="Repositories\AlunoRepository.cs" />
+    <Compile Include="Repositories\AtividadeReposiotry.cs" />
+    <Compile Include="Repositories\BairroRepository.cs" />
+    <Compile Include="Repositories\BanhoRepository.cs" />
+    <Compile Include="Repositories\CargoRepository.cs" />
+    <Compile Include="Repositories\CidadeRepository.cs" />
+    <Compile Include="Repositories\DadosSensorRepository.cs" />
+    <Compile Include="Repositories\EnderecoRepository.cs" />
+    <Compile Include="Repositories\EstadoRepository.cs" />
+    <Compile Include="Repositories\EvacuacaoRepository.cs" />
+    <Compile Include="Repositories\FuncionarioRepository.cs" />
+    <Compile Include="Repositories\MedicamentoRepository.cs" />
+    <Compile Include="Repositories\PessoaRepository.cs" />
+    <Compile Include="Repositories\RepositoryBase.cs" />
+    <Compile Include="Repositories\ResponsavelRespository.cs" />
+    <Compile Include="Repositories\SensorRepository.cs" />
+    <Compile Include="Repositories\SerieRepository.cs" />
+    <Compile Include="Repositories\SonoRepository.cs" />
+    <Compile Include="Repositories\UsuarioRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjetoMaster.Domain\ProjetoMaster.Domain.csproj">
+      <Project>{e386108b-367c-48bb-b5bd-666293a4e3fe}</Project>
+      <Name>ProjetoMaster.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjetoMaster.Infra.CrossCuting\ProjetoMaster.Infra.CrossCuting.csproj">
+      <Project>{08847109-2507-4537-9e7d-c09379fc3626}</Project>
+      <Name>ProjetoMaster.Infra.CrossCuting</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,14 @@
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\bin\Release\ProjetoMaster.Infra.Data.dll.config
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\bin\Release\ProjetoMaster.Infra.Data.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\bin\Release\ProjetoMaster.Infra.Data.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\bin\Release\EntityFramework.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\bin\Release\ProjetoMaster.Domain.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\bin\Release\ProjetoMaster.Infra.CrossCuting.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\bin\Release\ProjetoMaster.Domain.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\bin\Release\ProjetoMaster.Infra.CrossCuting.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\bin\Release\EntityFramework.xml
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\obj\Release\ProjetoMaster.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\obj\Release\ProjetoMaster.Infra.Data.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.Data\obj\Release\ProjetoMaster.Infra.Data.pdb
