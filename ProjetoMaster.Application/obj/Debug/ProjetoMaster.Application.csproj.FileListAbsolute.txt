@@ -19,3 +19,10 @@ C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\bin\Deb
 C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.csprojResolveAssemblyReference.cache
 C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.dll
 C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Application.dll
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Application.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Domain.dll
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Domain.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.csprojResolveAssemblyReference.cache
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.dll
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.pdb
