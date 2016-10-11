@@ -1,0 +1,21 @@
+C:\New folder\Projeto Master\ProjetoMaster\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Application.dll
+C:\New folder\Projeto Master\ProjetoMaster\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Application.pdb
+C:\New folder\Projeto Master\ProjetoMaster\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Domain.dll
+C:\New folder\Projeto Master\ProjetoMaster\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Domain.pdb
+C:\New folder\Projeto Master\ProjetoMaster\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.csprojResolveAssemblyReference.cache
+C:\New folder\Projeto Master\ProjetoMaster\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.dll
+C:\New folder\Projeto Master\ProjetoMaster\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.pdb
+C:\Users\jhoni\Desktop\master\ProjetoMaster\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Application.dll
+C:\Users\jhoni\Desktop\master\ProjetoMaster\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Application.pdb
+C:\Users\jhoni\Desktop\master\ProjetoMaster\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Domain.dll
+C:\Users\jhoni\Desktop\master\ProjetoMaster\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Domain.pdb
+C:\Users\jhoni\Desktop\master\ProjetoMaster\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.csprojResolveAssemblyReference.cache
+C:\Users\jhoni\Desktop\master\ProjetoMaster\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.dll
+C:\Users\jhoni\Desktop\master\ProjetoMaster\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Application.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Application.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Domain.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\bin\Debug\ProjetoMaster.Domain.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.csprojResolveAssemblyReference.cache
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\obj\Debug\ProjetoMaster.Application.pdb
