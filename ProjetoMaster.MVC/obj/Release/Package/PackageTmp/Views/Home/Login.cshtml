@@ -1,0 +1,43 @@
+﻿@model ProjetoMaster.MVC.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<div>
+    <a class="hiddenanchor" id="signup"></a>
+    <a class="hiddenanchor" id="signin"></a>
+
+    <div class="login_wrapper">
+        <div class="animate form login_form">
+            <section class="login_content">
+                @using (@Html.BeginForm("Logar", "Home", FormMethod.Post))
+                {
+                     @Html.AntiForgeryToken()
+                    
+                    <h1>Logar</h1>
+                    <div>
+                        <input style="box-shadow: 0 0px 0 #fff,0 -2px 5px rgba(0,0,0,0.08) inset;" name="Nome" type="text" class="form-control" placeholder="Usuário" required="" />
+                    </div>
+                    <div>
+                        <input style="box-shadow: 0 0px 0 #fff,0 -2px 5px rgba(0,0,0,0.08) inset;" name="Senha" type="password" class="form-control" placeholder="Senha" required="" />
+                    </div>
+                    <div>
+                        <input value="Logar" type="submit" class="btn btn-success"/>
+                        <a class="reset_pass" href="#">Esqueceu sua senha?</a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="separator">
+                        <div class="clearfix"></div>
+                        <br />
+
+                        <div>
+                            <h1><i class="fa fa-child"></i> BabyCare!</h1>
+                            <p>©2016 Todos os direitos reservados.</p>
+                        </div>
+                    </div>
+                }
+            </section>
+        </div>
+    </div>
+</div>

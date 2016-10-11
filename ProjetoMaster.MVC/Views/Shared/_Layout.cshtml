@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BabyCare! | </title>
+
+    <link href="~/Content/Bootststrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Site/Css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/Site/Css/nprogress.css" rel="stylesheet" />
+    <link href="~/Content/Site/Css/green.css" rel="stylesheet" />
+    <link href="~/Content/Site/Css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" />
+    <link href="~/Content/Site/Css/jqvmap.min.css" rel="stylesheet" />
+    <link href="~/Content/Site/Css/custom.min.css" rel="stylesheet" />
+
+    <script src="~/Content/Site/Js/autosize.min.js"></script>
+    <script src="~/Content/Site/Js/bootstrap-progressbar.min.js"></script>
+    <script src="~/Content/Site/Js/bootstrap-wysiwyg.min.js"></script>
+    <script src="~/Content/Site/Js/bootstrap.min.js"></script>
+    <script src="~/Content/Site/Js/custom.min.js"></script>
+    <script src="~/Content/Site/Js/daterangepicker.js"></script>
+    <script src="~/Content/Site/Js/fastclick.js"></script>
+    <script src="~/Content/Site/Js/icheck.min.js"></script>
+    <script src="~/Content/Site/Js/jquery.autocomplete.min.js"></script>
+    <script src="~/Content/Site/Js/jquery.hotkeys.js"></script>
+    <script src="~/Content/Site/Js/jquery.min.js"></script>
+    <script src="~/Content/Site/Js/jquery.tagsinput.js"></script>
+    <script src="~/Content/Site/Js/moment.min.js"></script>
+    <script src="~/Content/Site/Js/nprogress.js"></script>
+    <script src="~/Content/Site/Js/parsley.min.js"></script>
+    <script src="~/Content/Site/Js/prettify.js"></script>
+    <script src="~/Content/Site/Js/select2.full.min.js"></script>
+    <script src="~/Content/Site/Js/starrr.js"></script>
+    <script src="~/Content/Site/Js/switchery.min.js"></script>
+</head>
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            @RenderBody()
+        </div>
+    </div>
+    <script src="~/Site/Back/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="~/Site/Back/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/Site/Back/vendors/fastclick/lib/fastclick.js"></script>
+    <script src="~/Site/Back/vendors/nprogress/nprogress.js"></script>
+    <script src="~/Site/Back/vendors/Chart.js/dist/Chart.min.js"></script>
+    <script src="~/Site/Back/vendors/gauge.js/dist/gauge.min.js"></script>
+    <script src="~/Site/Back/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="~/Site/Back/vendors/iCheck/icheck.min.js"></script>
+    <script src="~/Site/Back/vendors/skycons/skycons.js"></script>
+    <script src="~/Site/Back/vendors/Flot/jquery.flot.js"></script>
+    <script src="~/Site/Back/vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="~/Site/Back/vendors/Flot/jquery.flot.time.js"></script>
+    <script src="~/Site/Back/vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="~/Site/Back/vendors/Flot/jquery.flot.resize.js"></script>
+    <script src="~/Site/Back/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="~/Site/Back/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="~/Site/Back/vendors/flot.curvedlines/curvedLines.js"></script>
+    <script src="~/Site/Back/vendors/DateJS/build/date.js"></script>
+    <script src="~/Site/Back/vendors/jqvmap/dist/jquery.vmap.js"></script>
+    <script src="~/Site/Back/vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="~/Site/Back/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <script src="~/Site/Back/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="~/Site/Back/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/Site/Back/vendors/fastclick/lib/fastclick.js"></script>
+    <script src="~/Site/Back/vendors/nprogress/nprogress.js"></script>
+    <script src="~/Site/Back/vendors/Chart.js/dist/Chart.min.js"></script>
+    <script src="~/Site/Back/vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+    <script src="~/Site/Back/vendors/Flot/jquery.flot.js"></script>
+    <script src="~/Site/Back/vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="~/Site/Back/vendors/Flot/jquery.flot.time.js"></script>
+    <script src="~/Site/Back/vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="~/Site/Back/vendors/Flot/jquery.flot.resize.js"></script>
+    <script src="~/Site/Back/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="~/Site/Back/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="~/Site/Back/vendors/flot.curvedlines/curvedLines.js"></script>
+    <script src="~/Site/Back/vendors/DateJS/build/date.js"></script>
+    <script src="~/Site/Back/production/js/moment/moment.min.js"></script>
+    <script src="~/Site/Back/production/js/datepicker/daterangepicker.js"></script>
+    <script src="~/Site/Back/build/js/custom.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //define chart clolors ( you maybe add more colors if you want or flot will add it automatic )
+            var chartColours = ['#96CA59', '#3F97EB', '#72c380', '#6f7a8a', '#f7cb38', '#5a8022', '#2c7282'];
+
+            //generate random number for charts
+            randNum = function () {
+                return (Math.floor(Math.random() * (1 + 40 - 10))) + 20;
+            };
+
+            var d1 = [];
+
+            //here we generate data for chart
+            for (var i = 0; i < 30; i++) {
+                d1.push([new Date(Date.today().add(i).days()).getTime(), randNum()]);
+            }
+
+            var chartMinDate = d1[0][0]; //first day
+            var chartMaxDate = d1[20][0]; //last day
+
+            var tickSize = [1, "day"];
+            var tformat = "%d/%m/%y";
+
+            //graph options
+            var options = {
+                grid: {
+                    show: true,
+                    aboveData: true,
+                    color: "#3f3f3f",
+                    labelMargin: 10,
+                    axisMargin: 0,
+                    borderWidth: 0,
+                    borderColor: null,
+                    minBorderMargin: 5,
+                    clickable: true,
+                    hoverable: true,
+                    autoHighlight: true,
+                    mouseActiveRadius: 100
+                },
+                series: {
+                    lines: {
+                        show: true,
+                        fill: true,
+                        lineWidth: 2,
+                        steps: false
+                    },
+                    points: {
+                        show: true,
+                        radius: 4.5,
+                        symbol: "circle",
+                        lineWidth: 3.0
+                    }
+                },
+                legend: {
+                    position: "ne",
+                    margin: [0, -25],
+                    noColumns: 0,
+                    labelBoxBorderColor: null,
+                    labelFormatter: function (label, series) {
+                        // just add some space to labes
+                        return label + '&nbsp;&nbsp;';
+                    },
+                    width: 40,
+                    height: 1
+                },
+                colors: chartColours,
+                shadowSize: 0,
+                tooltip: true, //activate tooltip
+                tooltipOpts: {
+                    content: "%s: %y.0",
+                    xDateFormat: "%d/%m",
+                    shifts: {
+                        x: -30,
+                        y: -50
+                    },
+                    defaultTheme: false
+                },
+                yaxis: {
+                    min: 0
+                },
+                xaxis: {
+                    mode: "time",
+                    minTickSize: tickSize,
+                    timeformat: tformat,
+                    min: chartMinDate,
+                    max: chartMaxDate
+                }
+            };
+            var plot = $.plot($("#placeholder33x"), [{
+                data: d1,
+                lines: {
+                    fillColor: "rgba(155, 202, 89, 0.12)"
+                },
+                points: {
+                    fillColor: "#fff"
+                }
+            }], options);
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            var data1 = [
+              [gd(2012, 1, 1), 17],
+              [gd(2012, 1, 2), 74],
+              [gd(2012, 1, 3), 6],
+              [gd(2012, 1, 4), 39],
+              [gd(2012, 1, 5), 20],
+              [gd(2012, 1, 6), 85],
+              [gd(2012, 1, 7), 7]
+            ];
+
+            var data2 = [
+              [gd(2012, 1, 1), 82],
+              [gd(2012, 1, 2), 23],
+              [gd(2012, 1, 3), 66],
+              [gd(2012, 1, 4), 9],
+              [gd(2012, 1, 5), 119],
+              [gd(2012, 1, 6), 6],
+              [gd(2012, 1, 7), 9]
+            ];
+            $("#canvas_dahs").length && $.plot($("#canvas_dahs"), [
+              data1, data2
+            ], {
+                series: {
+                    lines: {
+                        show: false,
+                        fill: true
+                    },
+                    splines: {
+                        show: true,
+                        tension: 0.4,
+                        lineWidth: 1,
+                        fill: 0.4
+                    },
+                    points: {
+                        radius: 0,
+                        show: true
+                    },
+                    shadowSize: 2
+                },
+                grid: {
+                    verticalLines: true,
+                    hoverable: true,
+                    clickable: true,
+                    tickColor: "#d5d5d5",
+                    borderWidth: 1,
+                    color: '#fff'
+                },
+                colors: ["rgba(38, 185, 154, 0.38)", "rgba(3, 88, 106, 0.38)"],
+                xaxis: {
+                    tickColor: "rgba(51, 51, 51, 0.06)",
+                    mode: "time",
+                    tickSize: [1, "day"],
+                    //tickLength: 10,
+                    axisLabel: "Date",
+                    axisLabelUseCanvas: true,
+                    axisLabelFontSizePixels: 12,
+                    axisLabelFontFamily: 'Verdana, Arial',
+                    axisLabelPadding: 10
+                },
+                yaxis: {
+                    ticks: 8,
+                    tickColor: "rgba(51, 51, 51, 0.06)",
+                },
+                tooltip: false
+            });
+
+            function gd(year, month, day) {
+                return new Date(year, month - 1, day).getTime();
+            }
+        });
+    </script>
+</body>
+</html>
