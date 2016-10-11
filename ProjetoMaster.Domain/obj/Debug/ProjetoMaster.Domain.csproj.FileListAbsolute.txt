@@ -1,0 +1,5 @@
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Domain\bin\Debug\ProjetoMaster.Domain.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Domain\bin\Debug\ProjetoMaster.Domain.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Domain\obj\Debug\ProjetoMaster.Domain.csprojResolveAssemblyReference.cache
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Domain\obj\Debug\ProjetoMaster.Domain.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Domain\obj\Debug\ProjetoMaster.Domain.pdb

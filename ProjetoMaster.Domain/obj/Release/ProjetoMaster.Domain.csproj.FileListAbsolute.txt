@@ -1,0 +1,4 @@
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Domain\bin\Release\ProjetoMaster.Domain.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Domain\bin\Release\ProjetoMaster.Domain.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Domain\obj\Release\ProjetoMaster.Domain.dll
+C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Domain\obj\Release\ProjetoMaster.Domain.pdb

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E386108B-367C-48BB-B5BD-666293A4E3FE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjetoMaster.Domain</RootNamespace>
+    <AssemblyName>ProjetoMaster.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\AlimentacaoDomain.cs" />
+    <Compile Include="Entities\AlunoDomain.cs" />
+    <Compile Include="Entities\AtividadeDomain.cs" />
+    <Compile Include="Entities\BairroDomain.cs" />
+    <Compile Include="Entities\BanhoDomain.cs" />
+    <Compile Include="Entities\CargoDomain.cs" />
+    <Compile Include="Entities\CidadeDomain.cs" />
+    <Compile Include="Entities\DadosSensorDomain.cs" />
+    <Compile Include="Entities\EnderecoDomain.cs" />
+    <Compile Include="Entities\EstadoDomain.cs" />
+    <Compile Include="Entities\EvacuacaoDomain.cs" />
+    <Compile Include="Entities\FuncionarioDomain.cs" />
+    <Compile Include="Entities\MedicamentoDomain.cs" />
+    <Compile Include="Entities\ResponsavelAlunoDomain.cs" />
+    <Compile Include="Entities\SerieDomain.cs" />
+    <Compile Include="Entities\SonoDomain.cs" />
+    <Compile Include="Enum\Periodo.cs" />
+    <Compile Include="Entities\PessoaDomain.cs" />
+    <Compile Include="Entities\SensorDomain.cs" />
+    <Compile Include="Entities\UsuarioDomain.cs" />
+    <Compile Include="Enum\PerfilUsuario.cs" />
+    <Compile Include="Enum\Sexo.cs" />
+    <Compile Include="Enum\StatusRefeicao.cs" />
+    <Compile Include="Enum\TipoAtividade.cs" />
+    <Compile Include="Enum\TipoBanho.cs" />
+    <Compile Include="Enum\TipoEvacuacao.cs" />
+    <Compile Include="Enum\TipoRefeicao.cs" />
+    <Compile Include="Enum\TipoSono.cs" />
+    <Compile Include="Interfaces\Repositories\IAlimentacaoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IAlunoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IBairroRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IBanhoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ICargoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ICidadeReposiotry.cs" />
+    <Compile Include="Interfaces\Repositories\IDadosSensorRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IEnderecoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IEstadoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IEvacuacaoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IFuncionarioRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IMedicamentoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPessoaRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\Repositories\ISensorRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ISerieRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ISonoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IUsuarioRepository.cs" />
+    <Compile Include="Interfaces\Services\IAlimentacaoService.cs" />
+    <Compile Include="Interfaces\Services\IAlunoService.cs" />
+    <Compile Include="Interfaces\Services\IBairroService.cs" />
+    <Compile Include="Interfaces\Services\IBanhoService.cs" />
+    <Compile Include="Interfaces\Services\ICargoService.cs" />
+    <Compile Include="Interfaces\Services\ICidadeService.cs" />
+    <Compile Include="Interfaces\Services\IDadosSensorService.cs" />
+    <Compile Include="Interfaces\Services\IEnderecoService.cs" />
+    <Compile Include="Interfaces\Services\IEstadoServices.cs" />
+    <Compile Include="Interfaces\Services\IEvacuacaoService.cs" />
+    <Compile Include="Interfaces\Services\IPessoaService.cs" />
+    <Compile Include="Interfaces\Services\ISensorService.cs" />
+    <Compile Include="Interfaces\Services\IServiceBase.cs" />
+    <Compile Include="Interfaces\Services\IUsuarioService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DadosPulseiraService .cs" />
+    <Compile Include="Services\PessoaService.cs" />
+    <Compile Include="Services\ServiceBase.cs" />
+    <Compile Include="Services\UsuarioService.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
