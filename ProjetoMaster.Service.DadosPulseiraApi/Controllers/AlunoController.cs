@@ -12,6 +12,7 @@ using System.Web.Http;
 
 namespace ProjetoMaster.Service.DadosPulseiraApi.Controllers
 {
+    [RoutePrefix("api/alunos")]
     public class AlunoController : ApiController
     {
         #region Repositorio
@@ -30,25 +31,21 @@ namespace ProjetoMaster.Service.DadosPulseiraApi.Controllers
 
         #region Metodos
 
-        // GET api/Aluno
-        public string Get()
+        [Route("get/listaalunos")]
+        [HttpGet]
+        public IHttpActionResult Get()
         {
-            string jsonSerialize = "";
-
             try
             {
                 var listaAluno = repositoryAluno.GetAll().ToList();
-                jsonSerialize = JsonConvert.SerializeObject(listaAluno);
+                return Ok(listaAluno);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                jsonSerialize = ex.Message;
+                return BadRequest("ERROR");
             }
-
-            return jsonSerialize;
         }
 
-        // POST api/values
         public void Post(AlunoDomain model)
         {
             try
@@ -61,10 +58,24 @@ namespace ProjetoMaster.Service.DadosPulseiraApi.Controllers
             }
         }
 
-        // PUT api/values/5
         public void Put(AlunoDomain model)
         {
 
+        }
+
+        [Route("get/aluno/{codigo}")]
+        [HttpGet]
+        public IHttpActionResult AlunoCodigo(int codigo)
+        {
+            try
+            {
+                var listaAluno = repositoryAluno.GetAll().Where(x => x.AlunoDomainId == codigo).FirstOrDefault();
+                return Ok(listaAluno);
+            }
+            catch (Exception)
+            {
+                return BadRequest("ERROR");
+            }
         }
 
         #endregion

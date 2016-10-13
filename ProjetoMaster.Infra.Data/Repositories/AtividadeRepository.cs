@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoMaster.Infra.Data.Repositories
 {
-    public class AtividadeReposiotry : RepositoryBase<AtividadeDomain>
+    public class AtividadeRepository : RepositoryBase<AtividadeDomain>
     {
 
     }

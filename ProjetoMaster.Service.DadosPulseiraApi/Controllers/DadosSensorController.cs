@@ -37,7 +37,6 @@ namespace ProjetoMaster.Service.DadosPulseiraApi.Controllers
 
         #region Metodos
 
-        // GET api/DadosPulseira
         public string Get()
         {
             string jsonSerialize = "";
@@ -72,7 +71,6 @@ namespace ProjetoMaster.Service.DadosPulseiraApi.Controllers
             return jsonSerialize;
         }
 
-        // POST api/values
         public void Post(DadosSensorDomain model)
         {
             try
@@ -85,7 +83,6 @@ namespace ProjetoMaster.Service.DadosPulseiraApi.Controllers
             }
         }
 
-        // PUT api/values/5
         public void Put(DadosSensorDomain model)
         {
 

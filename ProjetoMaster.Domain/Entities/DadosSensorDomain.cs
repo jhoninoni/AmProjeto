@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjetoMaster.Domain.Enum;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -22,6 +23,7 @@ namespace ProjetoMaster.Domain.Entities
         #region Propriedades
 
         public int DadosSensorDomainId { get; set; }
+        public long CodSensor { get; set; }
         public bool Chegada { get; set; }
         public int Batimento { get; set; }
         public DateTime DataCadastro { get; set; }
@@ -29,6 +31,9 @@ namespace ProjetoMaster.Domain.Entities
         public int SensorId { get; set; }
         public PessoaDomain PessoaDomain { get; set; }
         public int PessoaId { get; set; }
+        public AlunoDomain Aluno { get; set; }
+        public int AlunoId { get; set; }
+        public TipoAtividade Tipoatividade { get; set; }
 
         #endregion
     }

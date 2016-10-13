@@ -11,6 +11,7 @@ using System.Web.Http;
 
 namespace ProjetoMaster.Service.DadosPulseiraApi.Controllers
 {
+    [RoutePrefix("api/usuario")]
     public class UsuarioController : ApiController
     {
         #region Repositorio
@@ -29,40 +30,36 @@ namespace ProjetoMaster.Service.DadosPulseiraApi.Controllers
 
         #region Metodos
 
-        // GET api/Usuario
-        public string Get()
+        [Route("get/listausuario")]
+        [HttpGet]
+        public IHttpActionResult ListaUsuario()
         {
-            string jsonSerialize = "";
-
             try
             {
                 var listaUsuario = repositoryUsuario.GetAll().ToList();
-                jsonSerialize = JsonConvert.SerializeObject(listaUsuario);
+                return Ok(listaUsuario);
             }
             catch (Exception ex)
             {
-                jsonSerialize = ex.Message;
+                return BadRequest("ERROR");
             }
 
-            return jsonSerialize;
         }
 
-        // POST api/Usuario
-        public bool Post(UsuarioDomain model)
+        [Route("autenticacao/login")]
+        [HttpPost]
+        public IHttpActionResult Login(UsuarioDomain model)
         {
             try
             {
                 var senha = new Criptografia().Encrypt(model.Senha.Trim()).ToUpper();
                 var usuario = repositoryUsuario.GetAll().Where(n => n.Login.ToUpper().Equals(model.Login.Trim().ToUpper()) && n.Senha.ToUpper().Equals(senha.ToUpper())).ToList();
 
-                if (usuario.Count() == 0)
-                    return false;
-
-                return true;
+                return Ok((UsuarioDomain)usuario.FirstOrDefault());
             }
             catch (Exception ex)
             {
-                return false;
+                return BadRequest("ERROR");
             }
         }
 

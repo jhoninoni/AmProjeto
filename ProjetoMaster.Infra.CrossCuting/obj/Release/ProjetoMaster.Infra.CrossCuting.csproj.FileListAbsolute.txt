@@ -3,3 +3,8 @@ C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\b
 C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\obj\Release\ProjetoMaster.Infra.CrossCuting.csprojResolveAssemblyReference.cache
 C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\obj\Release\ProjetoMaster.Infra.CrossCuting.dll
 C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Infra.CrossCuting\obj\Release\ProjetoMaster.Infra.CrossCuting.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Infra.CrossCuting\bin\Release\ProjetoMaster.Infra.CrossCuting.dll
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Infra.CrossCuting\bin\Release\ProjetoMaster.Infra.CrossCuting.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Infra.CrossCuting\obj\Release\ProjetoMaster.Infra.CrossCuting.csprojResolveAssemblyReference.cache
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Infra.CrossCuting\obj\Release\ProjetoMaster.Infra.CrossCuting.dll
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Infra.CrossCuting\obj\Release\ProjetoMaster.Infra.CrossCuting.pdb

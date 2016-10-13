@@ -31,3 +31,14 @@ C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\EncriptarDecriptar\obj\Debug\Encr
 C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\EncriptarDecriptar\obj\Debug\EncriptarDecriptar.csproj.GenerateResource.Cache
 C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\EncriptarDecriptar\obj\Debug\EncriptarDecriptar.exe
 C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\EncriptarDecriptar\obj\Debug\EncriptarDecriptar.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\EncriptarDecriptar\bin\Debug\EncriptarDecriptar.exe.config
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\EncriptarDecriptar\bin\Debug\EncriptarDecriptar.exe
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\EncriptarDecriptar\bin\Debug\EncriptarDecriptar.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\EncriptarDecriptar\bin\Debug\ProjetoMaster.Infra.CrossCuting.dll
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\EncriptarDecriptar\bin\Debug\ProjetoMaster.Infra.CrossCuting.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\EncriptarDecriptar\obj\Debug\EncriptarDecriptar.csprojResolveAssemblyReference.cache
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\EncriptarDecriptar\obj\Debug\RodarBaseDados.Decrypt.resources
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\EncriptarDecriptar\obj\Debug\EncriptarDecriptar.Properties.Resources.resources
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\EncriptarDecriptar\obj\Debug\EncriptarDecriptar.csproj.GenerateResource.Cache
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\EncriptarDecriptar\obj\Debug\EncriptarDecriptar.exe
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\EncriptarDecriptar\obj\Debug\EncriptarDecriptar.pdb

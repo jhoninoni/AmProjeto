@@ -56,7 +56,7 @@ namespace ProjetoMaster.Infra.Data.Contexto
             modelBuilder.Configurations.Add(new PessoaConfiguration());
             modelBuilder.Configurations.Add(new UsuarioConfiguration());
             modelBuilder.Configurations.Add(new SensorConfiguration());
-            modelBuilder.Configurations.Add(new DadosPulseiraConfiguration());
+            modelBuilder.Configurations.Add(new DadosSensorConfiguration());
             modelBuilder.Configurations.Add(new AlunoConfiguration());
             modelBuilder.Configurations.Add(new FuncionarioConfiguration());
             modelBuilder.Configurations.Add(new MedicamentoConfiguration());

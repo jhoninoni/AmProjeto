@@ -5,3 +5,10 @@ C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\bin\Rel
 C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\obj\Release\ProjetoMaster.Application.csprojResolveAssemblyReference.cache
 C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\obj\Release\ProjetoMaster.Application.dll
 C:\Users\jhoni\Desktop\ProjetoAM\ProjetoMaster\ProjetoMaster.Application\obj\Release\ProjetoMaster.Application.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\bin\Release\ProjetoMaster.Application.dll
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\bin\Release\ProjetoMaster.Application.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\bin\Release\ProjetoMaster.Domain.dll
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\bin\Release\ProjetoMaster.Domain.pdb
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\obj\Release\ProjetoMaster.Application.csprojResolveAssemblyReference.cache
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\obj\Release\ProjetoMaster.Application.dll
+C:\Users\jhoni\Desktop\ProjetoAM\GitClone\AmProjeto\ProjetoMaster.Application\obj\Release\ProjetoMaster.Application.pdb

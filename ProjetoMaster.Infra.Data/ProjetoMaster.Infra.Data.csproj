@@ -58,7 +58,7 @@
     <Compile Include="EntityConfig\AtividadeConfiguration.cs" />
     <Compile Include="EntityConfig\BairroConfiguration.cs" />
     <Compile Include="EntityConfig\CidadeConfiguration.cs" />
-    <Compile Include="EntityConfig\DadosPulseiraConfiguration.cs" />
+    <Compile Include="EntityConfig\DadosSensorConfiguration.cs" />
     <Compile Include="EntityConfig\EnderecoConfiguration.cs" />
     <Compile Include="EntityConfig\EstadoConfiguration.cs" />
     <Compile Include="EntityConfig\FuncionarioConfiguration.cs" />
@@ -90,7 +90,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\AlimentacaoRepository.cs" />
     <Compile Include="Repositories\AlunoRepository.cs" />
-    <Compile Include="Repositories\AtividadeReposiotry.cs" />
+    <Compile Include="Repositories\AtividadeRepository.cs" />
     <Compile Include="Repositories\BairroRepository.cs" />
     <Compile Include="Repositories\BanhoRepository.cs" />
     <Compile Include="Repositories\CargoRepository.cs" />

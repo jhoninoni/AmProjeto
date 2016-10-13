@@ -13,7 +13,7 @@ namespace ProjetoMaster.Infra.Data.MassaDados
     {
         public AtividadeDados()
         {
-            var reprepositoryAtividade = new AtividadeReposiotry();
+            var reprepositoryAtividade = new AtividadeRepository();
             var repositoryAluno = new AlunoRepository().GetAll().ToList();
 
             try
